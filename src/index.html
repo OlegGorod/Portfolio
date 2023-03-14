@@ -14,16 +14,14 @@
     <meta property="og:url" content="https://metatags.io/">
     <meta property="og:title" content="Мое портфолио">
     <meta property="og:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <meta property="og:image"
-        content="img/metateg.png">
+    <meta property="og:image" content="img/metateg.png">
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
     <meta property="twitter:title" content="Мое портфолио">
     <meta property="twitter:description"
         content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <meta property="twitter:image"
-        content="img/metateg.png">
+    <meta property="twitter:image" content="img/metateg.png">
 
 
     <!-- Favicon  -->
@@ -72,12 +70,12 @@
 
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#myabout">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="#myresume">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="#myskills">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#myportfolio">МОИ РАБОТЫ</a></li>
-                    <li class="menu__link"><a href="#myprice">ПРАЙС-ЛИСТ</a></li>
-                    <li class="menu__link"><a href="#mycontacts">КОНТАКТЫ</a></li>
+                    <li class="menu__link"><a href="#myabout" id="lng_aboutme">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#myresume" id="lng_myexperience">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#myskills" id="lng_myskills">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#myportfolio" id="lng_myworks">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#myprice" id="lng_pricelist">ПРАЙС-ЛИСТ</a></li>
+                    <li class="menu__link"><a href="#mycontacts" id="lng_mycontacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
 
@@ -93,17 +91,22 @@
     </div>
 
     <section class="promo">
+        <div class="promo__languages">
+            <a class="promo__languages_link active" language="en" href="#">ENG</a>
+            <a class="promo__languages_link" language="ua" href="#">UA</a>
+            <a class="promo__languages_link" language="ru" href="#">RU</a>
+        </div>
         <div class="hamburger">
             <span></span>
             <span class="long"></span>
             <span></span>
         </div>
         <div class="container">
-            <div class="title title_fz16 promo__subtitle">Меня зовут Олег Городенский</div>
-            <h1 class="title title_fz48 promo__title">Я web-разработчик из города Киева</h1>
+            <div class="title title_fz16 promo__subtitle " id="lng_promoSubtitle">Меня зовут Олег Городенский</div>
+            <h1 class="title title_fz48 promo__title" id="lng_promoTitle">Я web-разработчик из города Киева</h1>
             <div class="promo__btns">
-                <a href="#myportfolio" class="promo__link btn">Портфолио</a>
-                <a href="#myabout" class="promo__link">Про меня</a>
+                <a href="#myportfolio" class="promo__link btn" id="lng_portfolio">Портфолио</a>
+                <a href="#myabout" class="promo__link lng_about" id="lng_about">Про меня</a>
             </div>
         </div>
     </section>
@@ -115,21 +118,16 @@
                     <img src="img/35Pmrpsu_lE.jpg" alt="photo">
                 </div>
                 <div class="about__descr">
-                    <h2 class="title title_fz16 about__title">Про меня</h2>
-                    <div class="title title_fz36 about__subtitle">Меня зовут Олег</div>
+                    <h2 class="title title_fz16 about__titl" id="lng_aboutMe">Про меня</h2>
+                    <div class="title title_fz36 about__subtitle" id="lng_name">Меня зовут Олег</div>
                     <div class="divider"></div>
-                    <p class="about__text">Я веб-разработчик из Украины. Люблю создавать красивые интерфейсы с
-                        отличным UX.
-                        Три принципа успешной работы - честность, открытость к инновационным решениям и
-                        стремление к результату.
-                        Я осознаю на деле, как важно идти в
-                        ногу со временем в веб-технологиях. Постоянно развиваюсь, стараюсь внедрять новейшие фишки
-                        не только в ваш бизнес, но и в свой. Это позволяет нам всем максимально конкурировать в своем
-                        рынке и задавать темп конкурентам, идя впереди.
-                        Также ваш портал будет иметь адаптивный дизайн для комфортного просмотра на любых мобильных
-                        устройствах.
-                        Сайты быстро загружаются и интуитивно понятны пользователю. Соблюдаю сроки, в рабочее
-                        время всегда на связи.
+                    <p class="about__text" id="lng_aboutMyself">Я веб-разработчик из Украины. Люблю создавать красивые
+                        интерфейсы c отличным UX.
+                        Три принципа успешной работы - честность, открытость к инновационным решениям и стремление к результату.
+                        Я осознаю на деле, как важно идти в ногу со временем в веб-технологиях. Постоянно развиваюсь, стараюсь внедрять новейшие фишки
+                        не только в ваш бизнес, но и в свой. Это позволяет нам всем максимально конкурировать в своем рынке и задавать темп конкурентам, идя впереди.
+                        Также ваш портал будет иметь адаптивный дизайн для комфортного просмотра на любых мобильных устройствах.
+                        Сайты быстро загружаются и интуитивно понятны пользователю. Соблюдаю сроки, в рабочее время всегда на связи.
                     </p>
                 </div>
                 <div class="about__skills">
@@ -138,10 +136,10 @@
                             <img src="icons/about_me/web_development.svg" alt="web-dev">
                         </div>
                         <div>
-                            <div class="title title_fz14">
+                            <div class="title title_fz14" id="lng_web">
                                 Web-разработка
                             </div>
-                            <div class="about__skills-text">
+                            <div class="about__skills-text" id="lng_webDescr">
                                 Создание корпоративного сайта, интернет магазина, лендинга, сайта визитки и
                                 одностраничные web-приложения, создание элементов и блоков без
                                 макета, соблюдая стилистику сайта или приложения.
@@ -154,10 +152,10 @@
                             <img src="icons/about_me/mobile_dev.svg" alt="mobile-dev">
                         </div>
                         <div>
-                            <div class="title title_fz14">
+                            <div class="title title_fz14" id="lng_application">
                                 Разработка приложений
                             </div>
-                            <div class="about__skills-text">
+                            <div class="about__skills-text" id="lng_applicationDescr">
                                 Мобильными устройствами пользуются миллионы людей во всем мире и их количество постоянно
                                 растет, поэтому приложение сразу увеличит прибыль вашей компании. Создаю оригинальные
                                 и эффективные мобильные приложения в короткие сроки.
@@ -172,8 +170,8 @@
 
     <section class="portfolio" id="myportfolio">
         <div class="container">
-            <h2 class="title title_fz16 portfolio__title title__section-title">Портфолио</h2>
-            <div class="title title_fz36 portfolio__subtitle title__section-subtitle">Мои работы</div>
+            <h2 class="title title_fz16 portfolio__title title__section-title" id="lng_portfolio2">Портфолио</h2>
+            <div class="title title_fz36 portfolio__subtitle title__section-subtitle" id="lng_myProjects">Мои работы</div>
 
             <div class="portfolio__wrapper">
                 <a href="https://ubertaxi.netlify.com/" class="portfolio__item">
@@ -200,12 +198,12 @@
 
     <section class="resume" id="myresume">
         <div class="container">
-            <div class="title title_fz16 resume__title title__section-title">Опыт</div>
-            <div class="title title_fz36 resume__subtitle title__section-subtitle">Чем я буду полезен</div>
+            <div class="title title_fz16 resume__title title__section-title" id="lng_experience">Опыт</div>
+            <div class="title title_fz36 resume__subtitle title__section-subtitle" id="lng_use">Чем я буду полезен</div>
 
             <div class="resume__wrapper">
                 <div class="resume__column">
-                    <div class="h3 title title_fz20 resume__column-title">Образование</div>
+                    <div class="h3 title title_fz20 resume__column-title" id="lng_education">Образование</div>
                     <ul>
                         <li>
                             <div class="resume__item">
@@ -238,7 +236,7 @@
                     </ul>
                 </div>
                 <div class="resume__column">
-                    <div class="h3 title title_fz20 resume__column-title">Опыт работы</div>
+                    <div class="h3 title title_fz20 resume__column-title" id="lng_exp">Опыт работы</div>
                     <ul>
                         <li>
                             <div class="resume__item">
@@ -249,7 +247,7 @@
                                     <h3 class="title title_fz14">Owort Digital Integration, Inc.</h3>
                                     <div class="resume__item-location">Front-end Developer</div>
                                 </div>
-                                <div class="resume__item-body">
+                                <div class="resume__item-body" id="lng_expDescr">
                                     Создание веб-приложения от макета до функциональности, в соответствии с требованиями
                                     клиента, адаптация приложения для мобильных устройств, рефакторинг исходной кодовой
                                     базы и внедрение оптимизации веб-производительности и обеспечение соответствия
@@ -267,16 +265,16 @@
 
     <section class="skills" id="myskills">
         <div class="container">
-            <h2 class="title title_fz16 skills__title title__section-title">Навыки</h2>
-            <div class="title title_fz36 skills__subtitle title__section-subtitle">Что я использую в работе</div>
+            <h2 class="title title_fz16 skills__title title__section-title" id="lng_skills">Навыки</h2>
+            <div class="title title_fz36 skills__subtitle title__section-subtitle" id="lng_whatIUse">Что я использую в работе</div>
 
             <div class="skills__items">
                 <div class="skills__item">
                     <div class="skills__item-img">
                         <img src="icons/skills/html5.svg" alt="html5">
                     </div>
-                    <h3 class="title title_fz14">HTML5</h3>
-                    <p>Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более
+                    <h3 class="title title_fz14" >HTML5</h3>
+                    <p id="lng_html"> Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более
                         SEO-оптимизированную структуру вашего продукта</p>
                 </div>
                 <div class="skills__item">
@@ -284,15 +282,15 @@
                         <img src="icons/skills/css3.svg" alt="css3">
                     </div>
                     <h3 class="title title_fz14">CSS3</h3>
-                    <p>Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения.
+                    <p id="lng_css">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения.
                         Все ограничивается только вашей фантазией!</p>
                 </div>
                 <div class="skills__item">
                     <div class="skills__item-img">
-                        <img src="icons/skills/sass_logo.svg" alt="sass" id="sass">
+                        <img src="icons/skills/sass.png" alt="sass" id="sass">
                     </div>
                     <h3 class="title title_fz14">Sass/Scss</h3>
-                    <p>Sass это расширение CSS, которое придаёт мощи и элегантности этому простому языку. Sass помогает
+                    <p id="lng_sass">Sass это расширение CSS, которое придаёт мощи и элегантности этому простому языку. Sass помогает
                         сохранять огромные таблицы стилей хорошо организованными, а небольшим стилям работать быстро,
                         особенно с помощью библиотеки стилей Compass.</p>
                 </div>
@@ -301,7 +299,7 @@
                         <img src="icons/skills/bootstrap.svg" alt="bootstrap" id="bootstrap">
                     </div>
                     <h3 class="title title_fz14">Bootstrap</h3>
-                    <p>Это открытый и бесплатный HTML, CSS и JS фреймворк, который используется веб-разработчиками для
+                    <p id="lng_bootstrap">Это открытый и бесплатный HTML, CSS и JS фреймворк, который используется веб-разработчиками для
                         быстрой вёрстки адаптивных дизайнов сайтов и веб-приложений. Bootstrap используется по всему
                         миру не только независимыми разработчиками, но иногда и целыми компаниями.</p>
                 </div>
@@ -310,7 +308,7 @@
                         <img src="icons/skills/js.svg" alt="java script">
                     </div>
                     <h3 class="title title_fz14">Java Script</h3>
-                    <p>Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки,
+                    <p id="lng_javascript">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки,
                         получение данных от сервера и многое другое</p>
                 </div>
                 <div class="skills__item">
@@ -318,7 +316,7 @@
                         <img src="icons/skills/jquery.svg" alt="Jquery">
                     </div>
                     <h3 class="title title_fz14">Jquery</h3>
-                    <p>Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не
+                    <p id="lng_jquery">Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не
                         будем, но навык работы с ней присутствует</p>
                 </div>
                 <div class="skills__item">
@@ -326,7 +324,7 @@
                         <img src="icons/skills/webpack2.png" alt="Webpack" id="webpack">
                     </div>
                     <h3 class="title title_fz14">Webpack</h3>
-                    <p>Это сборщик модулей JavaScript с открытым исходным кодом. Основной задачей вебпака является
+                    <p id="lng_webpack">Это сборщик модулей JavaScript с открытым исходным кодом. Основной задачей вебпака является
                         анализ модулей, их опциональное преобразование и интеллектуальное объединение в один или более
                         бандл.</p>
                 </div>
@@ -335,63 +333,63 @@
                         <img src="icons/skills/jira.png" alt="Jira" id="jira">
                     </div>
                     <h3 class="title title_fz14">Jira Software</h3>
-                    <p> Система отслеживания ошибок, которая предназначена для организации взаимодействия с
+                    <p id="lng_jira"> Система отслеживания ошибок, которая предназначена для организации взаимодействия с
                         пользователями и для управления проектами.</p>
                 </div>
-                <!-- <div class="skills__item">
+                <div class="skills__item">
                     <div class="skills__item-img">
                         <img src="icons/skills/react.svg" alt="React">
                     </div>
                     <h3 class="title title_fz14">React</h3>
-                    <p>Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</p>
+                    <p id="lng_react">Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели.</p>
                 </div>
                 <div class="skills__item">
                     <div class="skills__item-img">
                         <img src="icons/skills/node.js.svg" alt="Node.js">
                     </div>
                     <h3 class="title title_fz14">Node.js</h3>
-                    <p>Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</p>
+                    <p id="lng_nodejs">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит.</p>
                 </div>
                 <div class="skills__item">
                     <div class="skills__item-img">
                         <img src="icons/skills/mongo.db.svg" alt="Mongo.db">
                     </div>
                     <h3 class="title title_fz14">Mongo.db</h3>
-                    <p>Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
-                </div> -->
+                    <p id="lng_mongo">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
+                </div>
             </div>
 
             <div class="skills__ratings">
                 <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Создание сайтов</div>
+                    <div class="title title_fz14 skills__ratings-title" id="lng_website">Создание сайтов</div>
                     <div class="skills__ratings-counter">100%</div>
                     <div class="skills__ratings-line">
                         <span></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Создание приложений</div>
+                    <div class="title title_fz14 skills__ratings-title" id="lng_app">Создание приложений</div>
                     <div class="skills__ratings-counter">85%</div>
                     <div class="skills__ratings-line">
                         <span></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Работа с данными</div>
+                    <div class="title title_fz14 skills__ratings-title" id="lng_data">Работа с данными</div>
                     <div class="skills__ratings-counter">90%</div>
                     <div class="skills__ratings-line">
                         <span></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Креативность</div>
+                    <div class="title title_fz14 skills__ratings-title" id="lng_creative">Креативность</div>
                     <div class="skills__ratings-counter">75%</div>
                     <div class="skills__ratings-line">
                         <span></span>
                     </div>
                 </div>
                 <div class="skills__ratings-item">
-                    <div class="title title_fz14 skills__ratings-title">Создание дизайна</div>
+                    <div class="title title_fz14 skills__ratings-title" id="lng_design">Создание дизайна</div>
                     <div class="skills__ratings-counter">90%</div>
                     <div class="skills__ratings-line">
                         <span></span>
@@ -412,49 +410,49 @@
 
     <section class="price" id="myprice">
         <div class="container">
-            <h2 class="title title_fz16 title__section-title">Прайс-лист</h2>
+            <h2 class="title title_fz16 title__section-title" id="lng_price">Прайс-лист</h2>
             <div class="divider"></div>
 
             <div class="price__wrapper">
                 <div class="price__item">
                     <div class="price__type">Landing-page</div>
                     <div class="price__count">от 125$</div>
-                    <div class="price__descr">
+                    <div class="price__descr" id="lng_landing">
                         Одностраничный сайт для презентации услуг/товаров/...
                     </div>
                 </div>
                 <div class="price__item">
-                    <div class="price__type">Web-приложение</div>
+                    <div class="price__type" id="lng_webApp">Web-приложение</div>
                     <div class="price__count">от 450$</div>
-                    <div class="price__descr">
+                    <div class="price__descr" id="lng_webAppDescr">
                         Приложение внутри браузера для лучшего комфорта
                     </div>
                 </div>
                 <div class="price__item">
-                    <div class="price__type">Корпоративный сайт</div>
+                    <div class="price__type" id="lng_corporate">Корпоративный сайт</div>
                     <div class="price__count">от 300$</div>
-                    <div class="price__descr">
+                    <div class="price__descr" id="lng_corporateDescr">
                         Сайт для вашего бизнеса или компании
                     </div>
                 </div>
                 <div class="price__item">
-                    <div class="price__type">Android/IOS Приложение</div>
+                    <div class="price__type" id="lng_android">Android/IOS Приложение</div>
                     <div class="price__count">от 300$</div>
-                    <div class="price__descr">
+                    <div class="price__descr" id="lng_androidDescr">
                         Приложение для смартфона любой ОС
                     </div>
                 </div>
                 <div class="price__item">
-                    <div class="price__type">Интернет-магазин</div>
+                    <div class="price__type" id="lng_internet">Интернет-магазин</div>
                     <div class="price__count">от 465$</div>
-                    <div class="price__descr">
+                    <div class="price__descr" id="lng_internetDescr">
                         Инструмент для ваших продаж в сети
                     </div>
                 </div>
                 <div class="price__item">
-                    <div class="price__type">Дизайн</div>
-                    <div class="price__count">Индивидуально</div>
-                    <div class="price__descr">
+                    <div class="price__type" id="lng_design2">Дизайн</div>
+                    <div class="price__count" id="lng_designIndivid">Индивидуально</div>
+                    <div class="price__descr" id="lng_designDescr">
                         Создам дизайн для вашего сайта/приложения...
                     </div>
                 </div>
@@ -469,10 +467,10 @@
                     <img src="img/IMG_20191028_131932.jpg" alt="photo">
                 </div>
                 <div class="contacts__descr">
-                    <h2 class="title title_fz16 contacts__title">Контакты</h2>
-                    <div class="title title_fz36 contacts__subtitle">Свяжитесь со мной</div>
+                    <h2 class="title title_fz16 contacts__title" id="lng_contacts">Контакты</h2>
+                    <div class="title title_fz36 contacts__subtitle" id="lng_inTouch">Свяжитесь со мной</div>
 
-                    <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+                    <div class="title title_fz14 contacts__text" id="lng_inTouchDescr">Любым удобным для вас способом:</div>
                     <div class="contacts__social">
                         <a target="_blank" href="https://www.facebook.com/oleg.gorodenskyi" class="contacts__link">
                             <img src="icons/social/social/Facebook.svg" alt="facebook">
@@ -484,25 +482,25 @@
                             <img src="icons/social/instagram.svg" alt="instagram">
                         </a>
                     </div>
-                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>
+                    <div class="title title_fz14 contacts__text" id="lng_leaveContacts">Или оставьте ваши данные и я сам вам напишу:</div>
                     <form action="#" class="contacts__form" netlify>
                         <div class="contacts__input">
                             <input required name="name" id="name" type="text">
-                            <label for="name">Ваше имя</label>
+                            <label for="name" id="lng_yourName">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
                             <input required name="email" id="email" type="email">
-                            <label for="email">Ваша почта</label>
+                            <label for="email" id="lng_yourEmail">Ваша почта</label>
                         </div>
                         <div class="contacts__textarea">
                             <textarea name="text" id="text"></textarea>
-                            <label for="text">Ваше сообщение</label>
+                            <label for="text" id="lng_yourMess">Ваше сообщение</label>
                         </div>
                         <div class="contacts__triggers">
-                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <button class="contacts__btn btn" id="lng_send">Отправить сообщение</button>
                             <div class="contacts__policy">
                                 <input required type="checkbox" name="" id="">
-                                <span>Я согласен(а)</span> <a href="/policy.html"> с политикой конфиденциальности</a>
+                                <span id="lng_agree">Я согласен(а) </span> <a href="/policy.html" id="lng_politics"> с политикой конфиденциальности</a>
                             </div>
                         </div>
                     </form>
@@ -511,6 +509,7 @@
         </div>
     </section>
 
+    <script src="js/langObj.js"></script>
     <script src="js/script.js"></script>
 </body>
 

@@ -2,6 +2,19 @@
     min-height: 100vh;
     padding-top: 206px;
     background: url('../img/IMG_20191023_141235.jpg') no-repeat 50%/cover;
+    &__languages {
+        position: absolute;
+        top: 14px;
+        right: 100px;
+        &_link {
+            font-size: 1.5rem;
+            color: black;
+            margin: 0.5rem;
+            &.active {
+               text-decoration-line: underline;
+           }
+        }
+    }
     &__title {
         width: 530px;
     }
