@@ -231,6 +231,32 @@ const langObj = {
         'ua': "Корпоративний сайт",
         'ru': 'Корпоративный сайт'
     },
+    from1: {
+        'en': "from",
+        'ua': "від",
+        'ru': 'от'
+    },
+    from2: {
+        'en': "from",
+        'ua': "від",
+        'ru': 'от'
+    },
+    from3: {
+        'en': "from",
+        'ua': "від",
+        'ru': 'от'
+    },
+    from4: {
+        'en': "from",
+        'ua': "від",
+        'ru': 'от'
+    },
+    from5: {
+        'en': "from",
+        'ua': "від",
+        'ru': 'от'
+    },
+   
     corporateDescr: {
         'en': "Website for your business or company",
         'ua': "Сайт для вашого бізнесу чи компанії",

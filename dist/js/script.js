@@ -11,7 +11,7 @@ changeLanguage()
 function changeLanguage() {
     const defaultLang = document.querySelector('a[language="en"]').getAttribute('language');
     for (let key in langObj) {
-        const element = document.querySelector('#lng_'+ key);
+        const element = document.querySelector('#lng_' + key);
         element.innerHTML = langObj[key][defaultLang]
     }
 
@@ -59,3 +59,13 @@ const line = document.querySelectorAll('.skills__ratings-line span');
 counter.forEach((item, i) => {
     line[i].style.width = item.innerHTML;
 });
+
+window.addEventListener('scroll', function() {
+    const pageup = document.querySelector('.pageup');
+    
+    if (window.scrollY > 600) {
+      pageup.classList.add('show');
+    } else {
+      pageup.classList.remove('show');
+    }
+  });

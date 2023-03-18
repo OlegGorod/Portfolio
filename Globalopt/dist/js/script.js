@@ -24,8 +24,8 @@ window.addEventListener('DOMContentLoaded', (e) => {
 
 $(document).ready(function(){
     $('.feedback__carousel').slick({
-        prevArrow: '<button type="button" class="slick-prev"><img src="icons/reviews/reviews-left.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="icons/reviews/reviews-right.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/reviews/reviews-left.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="../icons/reviews/reviews-right.png"></button>',
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: false,

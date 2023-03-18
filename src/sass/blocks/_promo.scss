@@ -1,6 +1,6 @@
 .promo {
     min-height: 100vh;
-    padding-top: 206px;
+    padding-top: 120px;
     background: url('../img/IMG_20191023_141235.jpg') no-repeat 50%/cover;
     &__languages {
         position: absolute;
@@ -17,12 +17,14 @@
     }
     &__title {
         width: 530px;
+        margin-left: 45px;
     }
     &__subtitle {
         @include before_circle;
         z-index: 2;
         position: relative;
         padding-left: 10px;
+        margin-left: 45px;
     }
     &__btns {
         width: 250px;
@@ -30,6 +32,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-left: 45px;
     }
     &__link {
         font-weight: 700;
