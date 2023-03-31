@@ -774,7 +774,7 @@ window.addEventListener('DOMContentLoaded', click => {
         field: '.offer__slider-inner'
     });
     (0,_modules_tabs__WEBPACK_IMPORTED_MODULE_5__["default"])('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
-    (0,_modules_timer__WEBPACK_IMPORTED_MODULE_6__["default"])('.timer', '2022-12-28');
+    (0,_modules_timer__WEBPACK_IMPORTED_MODULE_6__["default"])('.timer', '2024-02-28');
 
 
 });
