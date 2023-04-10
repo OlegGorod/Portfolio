@@ -60,11 +60,20 @@
       .horizontal,
       .vertical,
       .horizontal-first,
-      .horizontal-spider,
-      .horizontal-cinema {
+      .horizontal-cinema
+       {
         grid-column: unset;
         grid-row: unset;
       }
+      .horizontal-spider {
+        grid-row: 3 / 4;
+        grid-column: 1 / 3;
+      }
+      .horizontal-fruits {
+        grid-row: 4 / 5;
+        grid-column: 2 / 4
+      }
+
     }
   }
   .contacts {
@@ -156,7 +165,9 @@
         grid-column: unset;
         grid-row: unset;
       }
-      .horizontal-spider {
+      .horizontal-spider,
+      .horizontal-fruits
+       {
         grid-column: 1/3;
       }
     }
@@ -302,7 +313,8 @@
       .vertical,
       .horizontal-first,
       .horizontal-cinema,
-      .horizontal-spider
+      .horizontal-spider,
+      .horizontal-fruits
        {
         grid-column: unset;
         grid-row: unset;
